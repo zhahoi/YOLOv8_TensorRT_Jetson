@@ -7,7 +7,7 @@ YOLOv8(Detect、Segment、Pose、Obb、Class)移植到Nvidia Jetson Nx中，支�
 
 最近换了一份新工作，这份工作需要我基于Nvidia Jetson Orin Nx进行算法开发，之前的工作基本接触不到该款开发板，同时对TensorRT的部署也不了解。为了能够快速熟悉基于Nvidia开发板的开发，所以创建了本仓库。
 
-本仓库是基于[YOLOv8-TensorRT](https://github.com/triple-Mu/YOLOv8-TensorRT)仓库进行二次开发的，适配了最新的TensorRT 10.x，与此同时，对于每个模块比较耗时的前后处理，可以使用cuda进行加速（在这里感谢腾讯元宝、chatgpt和claude帮我进行vide coding)。
+本仓库是基于[YOLOv8-TensorRT](https://github.com/triple-Mu/YOLOv8-TensorRT)仓库进行二次开发的，适配了最新的TensorRT 10.x，与此同时，对于每个模块比较耗时的前后处理，可以使用cuda进行加速（在这里感谢腾讯元宝、chatgpt和claude帮我进行vibe coding)。
 
 本项目是基于YOLOV8测试的，因为YOLO系列不同功能的后处理大致是一样的，因此应该可以扩展到YOLOV11当中(没测试过，但是应该可以)。
 
